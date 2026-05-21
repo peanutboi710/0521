@@ -25,3 +25,19 @@ else if (score >= 70) {
 else {
     console.log ("try again");
 }
+console.log("-----");
+console.log(!!1);
+console.log(!!-1);
+console.log(!!0);
+console.log(!![]);
+console.log(!!{});
+console.log(!!"");
+console.log(!!undefined);
+console.log(!!null);
+console.log(!!NaN);
+console.log(!!"0");
+console.log(!!"0" * 1);
+
+let a = 10;
+a || console.log("a는 false 취급");
+
