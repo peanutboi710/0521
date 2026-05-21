@@ -48,3 +48,11 @@ console.log(b1 || b2); // b1, b2 중 하나만 true
 
 // a || b 에서 a가 true면 b는 신경안쓴다
 // a && b 에서 b가? 
+
+let x = 1;
+x++; // x+=1;
+console.log(x); // 2
+x--; // x-=1;
+console.log(x); // 1
+console.log(x++); // 2? 1! , x++ 이 먼저 호출되고 x가 대입되기 때문
+console.log(++x); // 3, 이렇게 해야 순서대로
